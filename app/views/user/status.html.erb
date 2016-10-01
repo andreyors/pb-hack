@@ -1,0 +1,10 @@
+<div class="container">
+    <h1>Contracts</h1>
+    <div>
+        <ul>
+            <% @contracts.each do |contract| %>
+            <li><%= contract.product.name %></li>
+            <% end %>
+        </ul>
+    </div>
+</div>
